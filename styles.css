@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  display: flex;
+  padding: 1rem 5%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(210, 100%, 20%);
+}
+.logo {
+  color: hsl(210, 100%, 90%);
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.link a{
+  text-decoration: none;
+  color: hsl(210, 100%, 90%);
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.c1bg {
+  background-color: hsl(210, 100%, 30%);
+}
+.card1 {
+  background-color: hsl(210, 100%, 10%);
+  border-bottom-right-radius: calc(100vw / 20);
+  border-bottom-left-radius: calc(100vw / 20);
+  padding: 5rem 5%;
+}
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+}
+.desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.card1 .header{
+  color: white;
+}
+
+.card1 .desc{
+  color: hsla(210, 100%, 70%, 0.8);
+  max-width: 30ch;
+}
+
+
+.c2bg {
+  background-image: linear-gradient(hsl(210, 100%, 10%), 50%, hsl(210, 100%, 10%), 50%, hsl(210, 100%, 50%), hsl(210, 100%, 50%));
+}
+.card2 {
+  background-color: hsl(210, 100%, 30%);
+  padding: 5rem 5%;
+}
+
+.card2 .header{
+  color: hsl(210, 100%, 80%);
+}
+
+.card2 .desc{
+  text-align: left;
+  color: hsla(210, 100%, 80%, 0.8);
+}
+
+
+
+.c3bg {
+  background-image: linear-gradient(hsl(210, 100%, 30%), 50%, hsl(210, 100%, 30%), 50%, hsl(210, 100%, 70%), hsl(210, 100%, 70%));
+}
+.card3 {
+  background-color: hsl(210, 100%, 50%);
+  border-radius: calc(100vw / 20);
+  background-image: url(http://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0401/1920x1920.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.card3 .header{
+  color: hsl(0, 100%, 0%);
+  text-align: center;
+  padding: 5rem;
+  font-size: 3.5rem;
+}
+
+
+
+
+.c4bg {
+  background-color: hsl(210, 100%, 90%);
+}
+.card4 {
+  background-color: hsl(210, 100%, 70%);
+  border-bottom-right-radius: calc(100vw / 20);
+  padding: 5rem 5%;
+}
+
+.card4 .header{
+  color: hsl(210, 100%, 20%);
+}
+
+.card4 .desc{
+  color: hsla(210, 100%, 20%);
+  font-size: 1.75rem;
+  max-width: 30ch;
+}
+
+a {
+  font-size: 2rem;
+}
+
+
+
+.c5bg {
+  background-image: linear-gradient(hsl(210, 100%, 70%), 50%, hsl(210, 100%, 70%), 50%, hsl(0, 0%, 0%), hsl(0, 0%, 0%));
+}
+.card5 {
+  background-color: hsl(210, 100%, 90%);
+  border-top-left-radius: calc(100vw / 20);
+  border-bottom-left-radius: calc(100vw / 20);
+  padding: 5rem 5%;
+}
+
+.card5 .header{
+  color: hsl(210, 100%, 30%);
+}
+
+.card5 .desc{
+  color: hsla(210, 100%, 30%, 0.8);
+  max-width: 30ch;
+}
+
+
+
+.c6bg {
+  background-color: hsl(210, 100%, 90%);
+}
+.card6 {
+  background-color: hsl(0, 0%, 00%);
+  border-top-right-radius: calc(100vw / 20);
+  padding: 0 5%;
+}
+
+.card6 .header{
+  color: hsl(210, 100%, 30%);
+}
+
+.card6 .desc{
+  color: hsla(210, 100%, 30%, 0.8);
+  max-width: 30ch;
+}
