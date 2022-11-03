@@ -125,6 +125,9 @@ nav {
 
 a {
   font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 0.5rem;
 }
 
 
@@ -166,4 +169,8 @@ a {
 .card6 .desc{
   color: hsla(210, 100%, 30%, 0.8);
   max-width: 30ch;
+}
+
+img {
+  width: 100%;
 }
